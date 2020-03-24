@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="icon" href="assets/letter-p-logo-power_42564-11.jpg">
+
+    <title>PhunbytCode</title>
+</head>
+
+<body>
+    <section class="d-none d-sm-block" id="form-section">
+        <div class="form-div">
+            <h4 class="text-center">Contact Form</h4>
+            <div id="error-plate" class="text-center"></div>
+        </div>
+
+        <form method="post" enctype="multipart/form-data" onsubmit="return validated()">
+
+            <div>
+                <label class="label-class">Name</label>
+                <input type="text" name="name" id="name" placeholder="Please enter your name">
+            </div>
+
+            <div>
+                <label class="label-class">Email</label>
+                <input type="email" name="email" id="email" placeholder="Please enter your email">
+            </div>
+
+            <div>
+                <label class="label-class">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="Please enter your phone number">
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <section class="d-block d-sm-none" id="mform-section">
+        <div class="form-div">
+            <h2 class="text-center">Join The <br> Billionaires Club</h2>
+            <h4 class="text-center">Contact Form</h4>
+            <div id="merror-plate" class="text-center"></div>
+        </div>
+
+        <form method="post" enctype="multipart/form-data" onsubmit="return validate()">
+
+            <div>
+                <label class="label-class">Name</label>
+                <input type="text" name="name" id="mname" placeholder="Please enter your name">
+            </div>
+
+            <div>
+                <label class="label-class">Email</label>
+                <input type="email" name="email" id="memail" placeholder="Please enter your email">
+            </div>
+
+            <div>
+                <label class="label-class">Phone Number</label>
+                <input type="tel" name="phone" id="mphone" placeholder="Please enter your phone number">
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/app.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
